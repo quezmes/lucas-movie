@@ -1,0 +1,142 @@
+.player{
+    position: absolute;
+    left:0;
+    top:0;
+    bottom: 0;
+
+    height: 100%;
+   width: 100% ;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    display: flex;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.button-close{
+    align-self: flex-start;
+    margin-left: auto;
+    background: none;
+    border: 0;
+    outline: 0;
+}
+.c-video{
+    position: absolute;
+    align-self: center;
+    width: 60%;
+}
+.player-video{
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+}
+
+.controls{
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    height: 15%;
+    flex-wrap: wrap;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    border-radius: 0 0 22px 22px;
+
+}
+@mixin movie-icons() {
+      color: white;
+ 
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons .media-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons .settings-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+.buttons .volume-icon{
+    @include movie-icons();
+    font-size: 30px;
+}
+.buttons .play-icon{
+  @include movie-icons();
+  font-size: 70px;
+}
+
+.buttons .backward-icon{
+    @include movie-icons();
+    font-size: 30px;
+}
+
+.buttons .forward-icon{
+    @include movie-icons();
+    font-size: 30px;
+}
+
+.buttons .settings-icon{
+    @include movie-icons();
+    font-size: 30px;
+}
+
+.buttons .expand-icon{
+    @include movie-icons();
+    font-size: 30px;
+}
+
+.buttons button:before{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+ 
+    color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.buttons .quality-btn{
+    width: 39.6px;
+    height: 39.6px;
+    text-align: center;
+    color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 12.6px;
+  letter-spacing: 0;
+  line-height: 16px;
+  border-radius: 5.4px;
+  background-color: #3D3BEE;
+}
+
+.bar{
+    height: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.color-bar{
+    height: 10px;
+    
+    background-color: orange;
+}
+
+.button-close .close-icon{
+    color: white;
+    font-size: 40px;
+
+}
+

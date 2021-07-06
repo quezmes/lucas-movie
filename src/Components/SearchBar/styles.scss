@@ -1,0 +1,74 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 56px;
+    height: 22px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+    color: #3D3BEE;
+    line-height: 22px;
+    letter-spacing: normal;
+    text-align: left;
+}
+.searchBar{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 40px;
+     width: 315px;
+}
+
+.button-shape{
+    height: 24px;
+    width: 24px;
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.shape {
+    box-sizing: border-box;
+    height: 4px;
+    width: 4px;
+    border: 1.4px solid #656589;
+  }
+
+.oval {
+    box-sizing: border-box;
+    height: 15.4px;
+    width: 15.4px;
+    border: 1.4px solid #656589;
+}
+
+.searchBar-shape {
+    height: 40px;
+    width: 315px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px 0 rgba(61,59,238,0.13);
+  }
+  input[type=text], input[type=password]
+  {
+    border:none;
+    border-bottom: 1px solid lightgray;
+  }
+
+  input:focus{
+      outline: none;
+  }
+
+::placeholder{
+    height: 17px;
+  width: 58px;
+  color: #656589;
+  font-family: Inter;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;
+}

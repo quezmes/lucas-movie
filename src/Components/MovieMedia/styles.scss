@@ -1,0 +1,40 @@
+.img{
+    width: 205px;
+    height: 184px;
+    border-radius: 8px;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1)
+}
+
+.video{
+    width: 205px;
+    height: 184px;
+    border-radius: 8px;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1)
+}
+
+.video video{
+  width: 205px;
+  height: 184px;
+  position: absolute;
+}
+
+.embedVideo{
+    width: 205px;
+    height: 184px;
+    border-radius: 8px;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1)
+}
+
+.show-player-btn{
+  position: absolute;
+  width: 205px;
+  height: 184px;
+  outline: 0;
+  border: 0;
+  background: none;
+}
+
+.show-player-btn .play-icon{
+  color: white;
+  font-size: 50px;
+}

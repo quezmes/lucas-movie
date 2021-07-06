@@ -1,0 +1,33 @@
+.home{
+  height: 100%;
+  width: 100%;
+  min-width: 100px;
+  min-height: 100px;
+}
+.logo{
+    width: 56px;
+    height: 22px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+    color: #3D3BEE;
+    line-height: 22px;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.categoryName{
+    position: absolute;
+    margin: 31.51px 9px 124.76px 407px;
+
+    height: 27.73px;
+  width: 65px;
+  border-radius: 4px;
+  background-color: #3D3BEE;
+  box-shadow: 0 8px 30px 0 rgba(61,59,238,0.31);
+
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-align: center;
+}
