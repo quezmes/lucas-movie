@@ -60,10 +60,10 @@ const SearchBar = () => {
             <p className="logo">Logo</p>
             <div className="searchBar">
                 <p className=" searchBar-shape">
-                <button type="submit" class="button-shape" onClick={search}>
-                <i class="fa fa-search"></i>
+                <button type="submit" className="button-shape" onClick={search}>
+                <i className="fa fa-search"></i>
                 </button>
-                <input classname="search-input"
+                <input className="search-input"
                     type="text"
                     placeholder="Search..."
                     value={searchText}
@@ -71,10 +71,10 @@ const SearchBar = () => {
                     </p>
             </div>
         </div>
-        <div class="row g-5">
+        <div className="row g-5">
             <CategoriesCheckBoxes categories={categories} handleCheckChieldElement={handleCheckChieldElement} />
         </div>
-        <div class="row g-5">
+        <div className="row g-5">
             <Tags setSelectedTag={setSelectedTag} />
         </div>
 

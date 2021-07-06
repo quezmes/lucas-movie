@@ -12,8 +12,9 @@ const MovieItem = ({movie, playerTrigger}) => {
             <p className="title">{movie.Title}</p>
                      <p className="pubdate">{movie.PubDate}</p>
 
-                     {movie.Tags.map(({Title}) =>
-                    <a className="tag" href="#">#{Title} | </a>
+                     {movie.Tags.map(({Title}) => 
+                     
+                    <a key={Title} className="tag" href="#">#{Title} | </a>
                     )}
 
                      <p className="description">{movie.Description}</p>

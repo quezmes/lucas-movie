@@ -15,7 +15,7 @@ const Home = ({playerTrigger}) => {
         <div className="row">
             {categories.map(category=>
                 { return category.MoviesList.map((movie)=> 
-                <div className="col col-md-6">
+                <div key={movie.Title} className="col col-md-6">
                     <p className="categoryName">{category.CategoryName}</p>
                         <MovieItem playerTrigger={playerTrigger} movie={movie} />
                 </div>

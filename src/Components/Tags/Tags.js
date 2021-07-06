@@ -46,6 +46,7 @@ const Tags = ({setSelectedTag}) => {
     return <div>
         {tags.map((tag)=>
             <button 
+            key={tag.Title}
             id={tag.Title}
             className={isSelected(tag)}
             onClick={onClickHanlder}

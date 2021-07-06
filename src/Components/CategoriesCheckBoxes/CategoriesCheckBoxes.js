@@ -14,7 +14,7 @@ const CategoriesCheckBoxes = ({ categories, handleCheckChieldElement }) => {
     return <div>
         {categories.map(category =>
             <button
-                id={category.CategoryName}
+                key={category.CategoryName}
                 className={changeClassName(category)}
                 onClick={handleCheckChieldElement}>
 
